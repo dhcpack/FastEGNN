@@ -70,4 +70,18 @@ python equivariant.py
 It will random generate a graph `G`, rotation matrix `R` and translation vector `t`, and check `FastEGNN(G @ R + t)` equals to `FastEGNN(G) @ R + t` or not.
    
 
+## Citation
+
+If you find our work helpful, please cite as:
+
+```
+@inproceedings{
+    zhang2024improving,
+    title={Improving Equivariant Graph Neural Networks on Large Geometric Graphs  via Virtual Nodes Learning},
+    author={Yuelin Zhang and Jiacheng Cen and Jiaqi Han and Zhiqiang Zhang and JUN ZHOU and Wenbing Huang},
+    booktitle={Forty-first International Conference on Machine Learning},
+    year={2024},
+    url={https://openreview.net/forum?id=wWdkNkUY8k}
+}
+```
 
